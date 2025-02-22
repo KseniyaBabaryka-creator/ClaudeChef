@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Inter, sans-serif;
+	background: #E8E8E8;
+}
+
+header{
+	display: flex;
+	padding: 24px 16px;
+	justify-content: center;
+	align-items: center;
+	gap: 11px;
+	background: #FFF;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header-icon{
+	width: 43px;
+	height: 52px;
+	flex-shrink: 0;
+}
+
+.header-title{
+	color: #141413;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 60px; 
+	letter-spacing: -1.6px;
+}
+
+main{
+	padding: 70px 30px 10px 30px;
+}
+
+.add-ingridient-form{
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	height: 38px;
+}
+
+.form-input{
+	border-radius: 6px;
+	border: 1px solid #D1D5DB;
+	padding: 9px 13px;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+	flex-grow: 1;
+	min-width: 150px;
+	max-width: 400px;
+}
+
+.form-btn{
+	border: none;
+	border-radius: 6px;
+	background: #141413;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+	color: #fff;
+	padding: 0 17px;
+	font-size: 14px;
+}
+
+.get-recipe-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	background: #F0EFEB;
+	padding: 10px 28px;
+}
+
+.get-recipe-container h3 {
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.get-recipe-container p {
+	color: #6B7280;
+	font-size: 0.875rem;
+	line-height: 20px;
+}
+
+.get-recipe-container button {
+	border: none;
+	border-radius: 6px;
+	background: #D17557;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+	color: #FAFAF8;
+	padding: 9px 17px;
+	font-family: Inter, sans-serif;
+	font-size: 0.875rem;
+	cursor: pointer;
+}
