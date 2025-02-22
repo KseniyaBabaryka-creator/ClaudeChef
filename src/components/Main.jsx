@@ -9,6 +9,13 @@ export default function Main(){
 	const [ingredients, setIngredients] = React.useState([])
 
 	const [recipe, setRecipe] = React.useState('')
+	const recipeSection = React.useRef(null)
+    
+    React.useEffect(() => {
+        if (recipe !== "" && recipeSection.current !== null) {
+            recipeSection.current.scrollIntoView({behavior: "smooth"})
+        }
+    }, [recipe])
 
 
 	function handleSubmit(event){
@@ -35,7 +42,7 @@ export default function Main(){
 				/>
 				<button className="form-btn" type="submit">+ Add ingridient</button>
 			</form>
-			{ingredients.length > 0 && <IngredientList ingredients={ingredients} showRecipe={showRecipe}/>
+			{ingredients.length > 0 && <IngredientList rec={recipeSection} ingredients={ingredients} showRecipe={showRecipe}/>
 			}
 			{recipe && <ClaudeRecipe recipe={recipe}/>}
 		</main>
