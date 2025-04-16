@@ -1,8 +1,35 @@
-# React + Vite
+# ClaudeChef 🍽️ – AI-powered Recipe Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClaudeChef is a web app that helps you generate creative recipes based on ingredients you already have! The project uses Claude API for intelligent recipe suggestions.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (Hooks, functional components)
+- CSS Modules
+- API Integration (Claude / OpenAI)
+- JavaScript (ES6+)
+
+## 🚀 Features
+
+- Input ingredients and get recipe suggestions
+- Clean and responsive design
+- User-friendly UI
+- Async API requests
+
+## What I learned
+Working with AI APIs
+
+Handling async data in React
+
+Component architecture and styling
+
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/KseniyaBabaryka-creator/ClaudeChef.git
+cd ClaudeChef
+npm install
+npm start
+
+
